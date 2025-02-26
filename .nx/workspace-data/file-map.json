@@ -1,0 +1,538 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {
+    "@monorepo-demo/shared-utils": [
+      "shared-utils/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".idea/.gitignore",
+        "hash": "10286036308014790964"
+      },
+      {
+        "file": ".git/objects/26/39f9438fb3ddf2b001ed88cf18adcf6db8a290",
+        "hash": "6466546638300591881"
+      },
+      {
+        "file": ".git/objects/f6/aedfd1e4b3cbbb6c9df56e9395732d13a02918",
+        "hash": "14378165778217513361"
+      },
+      {
+        "file": ".git/objects/6e/1c02ac293c1c80dcfe7d2dbb8c1ef4b4e576e9",
+        "hash": "7038345075518840388"
+      },
+      {
+        "file": ".git/objects/b0/a85f871fb66dd6ee5d3ca6931420c2a81ee093",
+        "hash": "17966446387321061930"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "17073205621611631934"
+      },
+      {
+        "file": ".git/objects/c2/bb597be6f33bc568a2fdd2f2f2abfcfa3629c6",
+        "hash": "11821856061422450397"
+      },
+      {
+        "file": ".idea/monorepo.iml",
+        "hash": "7210100432694438571"
+      },
+      {
+        "file": ".git/objects/61/cbe23fa273e4c26e322294cf32ed09b2a41377",
+        "hash": "6334800866454732142"
+      },
+      {
+        "file": ".git/objects/20/497b9b0751cce8c1d4417ea9259060bcffe93c",
+        "hash": "574538573004829439"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "67819934578572107"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "13403640220140194561"
+      },
+      {
+        "file": ".git/objects/36/dab625ef38e54c527941591339784b748effc8",
+        "hash": "14448411008868227564"
+      },
+      {
+        "file": ".git/objects/a4/4d9be1af3b4ee5c8358b4e1f19dd0693283cff",
+        "hash": "2569574566389158356"
+      },
+      {
+        "file": ".git/objects/54/4138be45652abc7bc3873341deacd3f4f90c61",
+        "hash": "3099007938826462205"
+      },
+      {
+        "file": "nx.json",
+        "hash": "950685278396096960"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "1952941990890605836"
+      },
+      {
+        "file": ".git/objects/cc/070f8539d8cef71030493178ca2ea663c0ed73",
+        "hash": "6183428096949891531"
+      },
+      {
+        "file": ".git/objects/a6/75b32309265a7054ef2b761da066ccc6763070",
+        "hash": "17622327935428175440"
+      },
+      {
+        "file": ".git/objects/88/050035477449839300b7130b0ca882f3c91ae0",
+        "hash": "3689762897542461225"
+      },
+      {
+        "file": ".git/objects/c9/8c3d0936ccdee8b4580da1dc8ec0f0b3751780",
+        "hash": "12802522052699836714"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": ".git/objects/e2/906dcbb4ef4a63cf7f8cd48269a049e29fa9f0",
+        "hash": "5613056345038327024"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "dist/api/package-lock.json",
+        "hash": "347538948059449484"
+      },
+      {
+        "file": "dist/api/api/src/main.js",
+        "hash": "17680270101311576596"
+      },
+      {
+        "file": ".idea/misc.xml",
+        "hash": "6024751065972690504"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": ".git/objects/55/b3f90fd3a0cf6ea0a31c2925eae73441ea10c5",
+        "hash": "6066632911945957260"
+      },
+      {
+        "file": "dist/api/main.js",
+        "hash": "15024906580068991708"
+      },
+      {
+        "file": ".idea/vcs.xml",
+        "hash": "14600148892634157659"
+      },
+      {
+        "file": "dist/api/package.json",
+        "hash": "13273738539052546406"
+      },
+      {
+        "file": ".git/objects/82/3f750ff1621efaedef8ae5883774dae377d5ae",
+        "hash": "13469157308723171247"
+      },
+      {
+        "file": "package.json",
+        "hash": "9007392885610900462"
+      },
+      {
+        "file": ".idea/modules.xml",
+        "hash": "6464289180104880176"
+      },
+      {
+        "file": ".git/objects/d0/31cd30ce18a6e7458ea1eee5d3bf7d32def8a0",
+        "hash": "3105879551522651557"
+      },
+      {
+        "file": ".git/objects/dd/71ac2762a142e825f1163c1cd994635200eea3",
+        "hash": "7240951473542323718"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12581018652685705811"
+      },
+      {
+        "file": ".git/objects/43/e5e7d4905b9b914e17c1ec082fe1f0544db06b",
+        "hash": "12313454371948397225"
+      },
+      {
+        "file": "dist/api/main.js.map",
+        "hash": "3498091045173133929"
+      },
+      {
+        "file": ".git/objects/e3/055edb49b1a16e0db26e955c9639a97a7742b1",
+        "hash": "6643359085522746951"
+      },
+      {
+        "file": ".nx/workspace-data/cypress-8161926102631362384.hash",
+        "hash": "15862561888071827841"
+      },
+      {
+        "file": ".git/objects/eb/60b39a9ec9fc1485b055d1859887f5a3740733",
+        "hash": "2318086261652250051"
+      },
+      {
+        "file": ".git/objects/f2/62cbbcba5dc838a10eb395d4b0d6c6d5684d71",
+        "hash": "8980072317557938066"
+      },
+      {
+        "file": ".git/objects/46/4a63966e55e30ea3d5620004c2ad20dd74e510",
+        "hash": "468671481696670536"
+      },
+      {
+        "file": ".git/objects/7f/73473b0b9990125a4a263d0ae2c4026f8fbd99",
+        "hash": "1240445575180024634"
+      },
+      {
+        "file": "tmp/api/main-with-require-overrides.js",
+        "hash": "13979629413010453919"
+      },
+      {
+        "file": "generated_README.md",
+        "hash": "1595835914458969072"
+      },
+      {
+        "file": "README.md",
+        "hash": "17780653702478650341"
+      },
+      {
+        "file": ".git/objects/01/cdf4b7a1ea148e28393b0f215011f7b4a4f16e",
+        "hash": "10307370019737264502"
+      },
+      {
+        "file": ".git/objects/da/b5bd0f5490e1a793f937fbdb81fe7d8af96594",
+        "hash": "9196707490651306984"
+      },
+      {
+        "file": ".git/objects/e2/6f0b3f78ea55a9e3ee491db99047fc4f96a635",
+        "hash": "17220515221926828577"
+      },
+      {
+        "file": ".nx/workspace-data/eslint-2654242865465226088.hash",
+        "hash": "10558732572347813779"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "9662657841262435289"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".git/objects/ed/9ac9d6cb05495d4b6e397f0b4d9a795c75ff40",
+        "hash": "12026370853413252085"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "16019231684796946490"
+      },
+      {
+        "file": ".git/objects/d1/93b2c84ba40b173c6a501cec5d5f0d64955c4b",
+        "hash": "7133805728432864639"
+      },
+      {
+        "file": ".git/objects/63/22cc6df3b717dc867e2eb9d2cb61481d54524d",
+        "hash": "1715589354609844843"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".git/objects/94/2c903a39a52eddfe9bc827da6bb79ab747e112",
+        "hash": "2917422146175463385"
+      },
+      {
+        "file": "dist/api/api/src/main.js.map",
+        "hash": "5549679947949796650"
+      },
+      {
+        "file": ".git/objects/8a/81836d65dfd41bd9ff028d9fec9eced5505add",
+        "hash": "10402817731204993048"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "14675867540164507965"
+      },
+      {
+        "file": ".git/objects/54/453ee6d35395097a9e9cac9164fbefecd8f68a",
+        "hash": "3655785870236345791"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13953344395714216759"
+      },
+      {
+        "file": ".git/objects/11/09146e451ea9dd344c501c449314296f7bfc27",
+        "hash": "2918643523211094687"
+      },
+      {
+        "file": ".git/objects/40/271009fed71aaa0661af21084e09d3149157b5",
+        "hash": "3933336035749722801"
+      },
+      {
+        "file": ".git/index",
+        "hash": "10504776972034730458"
+      },
+      {
+        "file": ".git/objects/02/26bece8217334e922cebd3a7d9feb52fdfb155",
+        "hash": "1659069658338598664"
+      },
+      {
+        "file": ".git/objects/94/916b6dad96f25fdac53593686c63b7b018499a",
+        "hash": "8419077832888375578"
+      },
+      {
+        "file": ".git/objects/95/faaaec1cb8db2354f88502d89aa21ad8871e74",
+        "hash": "9628113813489118918"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "17018375431831259673"
+      },
+      {
+        "file": ".git/objects/aa/49926204769dd1cf96b385f2d8d874ca0cbf11",
+        "hash": "18163853834814765314"
+      }
+    ],
+    "projectFileMap": {
+      "shared-utils": [
+        {
+          "file": "shared-utils/README.md",
+          "hash": "16763671309847105818"
+        },
+        {
+          "file": "shared-utils/project.json",
+          "hash": "5204367984078711800"
+        },
+        {
+          "file": "shared-utils/src/index.ts",
+          "hash": "2115022695656941492"
+        },
+        {
+          "file": "shared-utils/src/lib/shared-utils.ts",
+          "hash": "393383238747502460"
+        },
+        {
+          "file": "shared-utils/tsconfig.json",
+          "hash": "14348528073521137485"
+        },
+        {
+          "file": "shared-utils/tsconfig.lib.json",
+          "hash": "9908975088309596753"
+        }
+      ],
+      "monorepo_demo": [
+        {
+          "file": "apps/monorepo_demo/eslint.config.mjs",
+          "hash": "16756400681144203361",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/jest.config.ts",
+          "hash": "8743963840888867455"
+        },
+        {
+          "file": "apps/monorepo_demo/project.json",
+          "hash": "17145074730949028349"
+        },
+        {
+          "file": "apps/monorepo_demo/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/app.component.html",
+          "hash": "11987652264972370457"
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/app.component.spec.ts",
+          "hash": "9984780174842937286",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/app.component.ts",
+          "hash": "8004355858226173056",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/app.config.ts",
+          "hash": "6137170128205633588",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/src/app/nx-welcome.component.ts",
+          "hash": "10614837675810604555",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/src/index.html",
+          "hash": "14541950329216641824"
+        },
+        {
+          "file": "apps/monorepo_demo/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/src/styles.css",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/monorepo_demo/src/test-setup.ts",
+          "hash": "1917999429567095215",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/monorepo_demo/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/monorepo_demo/tsconfig.json",
+          "hash": "6424220500541951295"
+        },
+        {
+          "file": "apps/monorepo_demo/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "monorepo_demo-e2e": [
+        {
+          "file": "apps/monorepo_demo-e2e/cypress.config.ts",
+          "hash": "17744541195923283489",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/eslint.config.mjs",
+          "hash": "7267301145493616340",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/project.json",
+          "hash": "8267057671992450578"
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/src/e2e/app.cy.ts",
+          "hash": "7860048529369112394"
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/monorepo_demo-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
+      "api": [
+        {
+          "file": "api/.DS_Store",
+          "hash": "5605610046688705181"
+        },
+        {
+          "file": "api/project.json",
+          "hash": "10433521602767621667"
+        },
+        {
+          "file": "api/src/.DS_Store",
+          "hash": "9614650656691305889"
+        },
+        {
+          "file": "api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "api/src/main.ts",
+          "hash": "12003555863464044675",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "api/tsconfig.app.json",
+          "hash": "17242618072763467887"
+        },
+        {
+          "file": "api/tsconfig.json",
+          "hash": "4276712839166217253"
+        }
+      ]
+    }
+  }
+}
