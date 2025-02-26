@@ -1,3 +1,8 @@
-import { Route } from '@angular/router';
+import { Routes } from '@angular/router';
+import { AppComponent } from './app.component';
+import { TaskComponent } from './task.component';
 
-export const appRoutes: Route[] = [];
+export const appRoutes: Routes = [
+  { path: '', component: AppComponent },
+  { path: 'task', component: TaskComponent } 
+];

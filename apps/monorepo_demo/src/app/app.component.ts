@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
-  imports: [NxWelcomeComponent, RouterModule],
   selector: 'app-root',
+  standalone: true,
+  imports: [RouterModule, HttpClientModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'monorepo_demo';
