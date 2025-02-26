@@ -962,5 +962,145 @@
       "shared-utils/project.json",
       "nx/core/project-json"
     ]
+  },
+  "node_modules/less/node_modules/source-map": {
+    "root": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ]
+  },
+  "node_modules/less": {
+    "root": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "node_modules/less/.eslintrc.js",
+      "@nx/eslint/plugin"
+    ]
   }
 }
