@@ -15,6 +15,11 @@ Afterwards it was used the following commands to create a Node.js backend:
     
       **npx nx generate @nx/node:application api**
 
+Now to create libraries for shared functionalities:
+  - Generate a shared library
+    
+    **npx nx generate @nx/js:library shared-utils**
+    
 In order to run this workspace do:
   - Serve the Angular frontend:
     
