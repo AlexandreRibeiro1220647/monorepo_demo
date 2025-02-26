@@ -1,14 +1,30 @@
-import express from 'express';
+import { Task } from '@monorepo-demo/shared-utils';
 
-const host = process.env.HOST ?? 'localhost';
-const port = process.env.PORT ? Number(process.env.PORT) : 3000;
+const express = require('express');
+const cors = require('cors');
 
 const app = express();
+app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.send({ message: 'Hello API' });
+// Allow requests from localhost:4200 (your frontend)
+app.use(cors({
+  origin: 'http://localhost:4200'
+}));
+
+
+let tasks: Task[] = [
+  { id: '1', title: 'Learn Nx', completed: false },
+  { id: '2', title: 'Build a project', completed: false }
+];
+
+app.get('/tasks', (req, res) => {
+  res.json(tasks);
 });
 
-app.listen(port, host, () => {
-  console.log(`[ ready ] http://${host}:${port}`);
+app.post('/tasks', (req, res) => {
+  const newTask: Task = req.body;
+  tasks.push(newTask);
+  res.status(201).json(newTask);
 });
+
+app.listen(3000, () => console.log('API running on http://localhost:3000'));
